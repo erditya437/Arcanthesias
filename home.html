@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simbolisme Kartu Remi</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-white text-gray">
+  <!-- Navbar -->
+ <header class="fixed top-0 w-full z-50 bg-white shadow">
+  <div class="max-w-7xl mx-auto px-4 sm:px-5 lg:px-8 flex justify-between items-center h-16">
+    <div class="text-xl font-bold">Arcanthesias</div>
+    
+    <!-- Desktop Nav -->
+    <nav role="navigation" class="hidden md:flex space-x-6">
+      <a href="#jack" class="hover:text-blue-600">Jack</a>
+      <a href="#queen" class="hover:text-blue-600">Queen</a>
+      <a href="#king" class="hover:text-blue-600">King</a>
+      <a href="#as" class="hover:text-blue-600">AS</a>
+    </nav>
+
+    <!-- Hamburger Menu Button -->
+    <button id="hamburger" class="md:hidden focus:outline-none" aria-label="Toggle menu">
+      <!-- Hamburger Icon -->
+      <svg id="icon-menu" class="w-6 h-6 block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+
+      <!-- X Icon -->
+      <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden max-h-0 overflow-hidden transition-all duration-500 ease-in-out md:hidden px-4 pb-4 space-y-8 bg-white">
+  <a href="#jack" class="block hover:text-blue-600">Jack</a>
+  <a href="#queen" class="block hover:text-blue-600">Queen</a>
+  <a href="#king" class="block hover:text-blue-600">King</a>
+  <a href="#as" class="block hover:text-blue-600">AS</a>
+</div>
+</header>
+
+
+  <!-- Hero Section -->
+  <section class="parallax fade-in hero relative h-screen flex items-center justify-center text-center bg-cover bg-center bg-fixed"
+    style="background-image: url('hero/pexels-didsss-2508565.jpg');">
+    <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
+    <div class="relative z-10 p-6 rounded-lg text-black">
+    <h1 id="heroTitle" class="text-6xl md:text-7xl font-bold mb-4 transition-all duration-300">Arcanthesias</h1>
+      <p id="heroSubtitle" class="text-lg md:text-xl transition-all duration-300">♦ ♣ ♥ ♠</p>
+      <!-- Audio Player & Control Button -->
+    <audio id="bgMusic" src="audio/Audio WhatsApp 2025-07-24 pukul 10.18.03_f94c73cc.mp3" loop></audio>
+    <button id="musicToggle" class="mt-6 px-6 py-2 bg-white-600 text-gray rounded hover:bg-black-700 transition">
+      Aktifkan Lagu
+    </button>
+
+   </div>
+
+  </section>
+
+
+<!-- Section Simbol Kartu -->
+<section id="symbols" class="fade-in relative w-full px-4 sm:px-8 py-24 bg-white text-black overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
+  <div class="relative z-10 text-black text-center max-w-3xl mx-auto">
+    <h2 class="text-4xl font-bold mb-6">Simbol-Simbol Kartu Remi</h2>
+    <div class="grid gap-5 md:grid-cols-4">
+      <div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-blur-sm">
+        <h3 class="text-2xl font-semibold mb-2">♦ Diamond</h3>
+        <p>Simbol kekayaan, materi, dan dunia fisik.</p>
+      </div>
+      <div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-blur-sm">
+        <h3 class="text-2xl font-semibold mb-2">♣ Clubs</h3>
+        <p>Melambangkan pertumbuhan, kerja keras, dan tantangan.</p>
+      </div>
+      <div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-blur-sm">
+        <h3 class="text-2xl font-semibold mb-2">♥ Heart</h3>
+        <p>Simbol cinta, emosi, dan relasi manusia.</p>
+      </div>
+      <div class="bg-white bg-opacity-10 p-4 rounded-lg backdrop-blur-sm">
+        <h3 class="text-2xl font-semibold mb-2">♠ Spades</h3>
+        <p>Mewakili intelek, konflik, dan transformasi spiritual.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+  <!-- Sections -->
+  <main class="space-y-0">
+   <section id="jack" class="fade-in relative w-full px-4 sm:px-8 py-24 bg-white text-black overflow-hidden">
+  <!-- <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div> -->
+  <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
+  <div class="relative z-10 flex flex-col md:flex-row items-center md:items-start md:space-x-8 p-6 text-black">
+    <img src="hero/download (1).jpg" alt="Jack" class="w-2/3 md:w-1/3 rounded-lg mb-4 md:mb-0">
+    <div>
+      <h2 class="text-3xl font-bold mb-4">Jack</h2>
+      <p>Jack sering kali merepresentasikan seorang kesatria muda atau pembantu setia. Ia simbol pemula yang penuh semangat.</p>
+    </div>
+  </div>
+</section>
+
+
+    <section id="queen" class="fade-in relative w-full px-4 sm:px-8 py-24  bg-white text-black overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
+      <div class="relative z-10 flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-8 md:space-x-reverse p-6 text-black">
+        <img src="hero/download (2).jpg" alt="Queen" class="w-2/3 md:w-1/3 rounded-lg mb-4 md:mb-0">
+        <div>
+          <h2 class="text-3xl font-bold mb-4">Queen</h2>
+          <p>Ratu adalah lambang kebijaksanaan, intuisi, dan kekuatan feminin. Setiap Queen memiliki karakternya sendiri di setiap simbol.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="king" class="fade-in relative w-full px-4 sm:px-8 py-24 bg-white text-black overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-t from-white"></div>
+      <div class="relative z-10 flex flex-col md:flex-row items-center md:items-start md:space-x-8 p-6 text-black">
+        <img src="hero/download (3).jpg" alt="King" class="w-2/3 md:w-1/3 rounded-lg mb-4 md:mb-0">
+        <div>
+          <h2 class="text-3xl font-bold mb-4">King</h2>
+          <p>Raja melambangkan otoritas, kepemimpinan, dan pengalaman. King of Spades, contohnya, dikaitkan dengan kebijaksanaan.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="as" class="fade-in relative w-full px-4 sm:px-8 py-24  bg-white text-black overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
+      <div class="relative z-10 flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-8 md:space-x-reverse p-6 text-black">
+        <img src="hero/download (4).jpg" alt="AS" class="w-2/3 md:w-1/3 rounded-lg mb-4 md:mb-0">
+        <div>
+          <h2 class="text-3xl font-bold mb-4">AS</h2>
+          <p>AS (Ace) merepresentasikan kekuatan tertinggi atau awal dari sesuatu yang besar, kadang juga dianggap kartu tertinggi dalam permainan.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 text-gray-200 py-8 mt-16 fade-in">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-xl font-semibold mb-2">Simbolisme Kartu Remi</h2>
+    <p class="text-sm mb-4">Website ini dibuat untuk menelusuri makna tersembunyi dari kartu remi.</p>
+    <div class="flex justify-center space-x-6 mb-4">
+      <a href="#" class="hover:text-white transition">Beranda</a>
+      <a href="#" class="hover:text-white transition">Tentang</a>
+      <a href="#" class="hover:text-white transition">home</a>
+    </div>
+    <p class="text-xs text-gray-400">&copy; 2025 Adit Remi Project. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

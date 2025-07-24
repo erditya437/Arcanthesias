@@ -1,0 +1,23 @@
+/* style.css */
+
+.hero {
+  transition: transform 0.6s ease;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 🔥 Tambahan khusus untuk animasi teks hero */
+#heroTitle,
+#heroSubtitle {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform-origin: center center;
+}
